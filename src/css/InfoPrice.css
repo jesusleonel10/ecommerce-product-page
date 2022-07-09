@@ -1,9 +1,14 @@
-.numbers{
+.numbers {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 2rem;
+    flex-wrap: wrap;
+    gap: .5rem;
     padding: 0 2rem;
+}
+
+.numbers > * {
+    margin: 1rem 0;
 }
 
 .price {
