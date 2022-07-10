@@ -60,11 +60,6 @@
     user-select: none;
 }
 
-.next:hover,
-.previous:hover {
-    color: var(--orange);
-}
-
 .row {
     display: flex;
     gap: 1.5rem;

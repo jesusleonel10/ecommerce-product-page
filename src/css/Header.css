@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 1.5rem 0 3rem 0;
-    gap: 3rem;
+    gap: 1.5rem;
     border-bottom: 2px solid var(--gray-blue-light);
     user-select: none;
 }
@@ -31,8 +31,8 @@
 }
 
 .avatar {
-    width: 4rem;
-    height: 4rem;
+    width: 3rem;
+    height: 3rem;
     border-radius: 100%;
     order: 4;
     cursor: pointer;

@@ -27,6 +27,7 @@ const Svg = styled(SvgLogo)`
 `;
 
 const SvgCart = styled(CartIcon)`
+    transform: scale(1.2);
 `;
  
 const Header = () => {

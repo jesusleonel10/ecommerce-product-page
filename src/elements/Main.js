@@ -4,6 +4,7 @@ const Main = styled.main`
     /* display: grid;
     grid-template-columns: repeat(2, 1fr); */
     flex-direction: column;
+    margin: 2rem 0;
 
     
 
