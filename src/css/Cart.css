@@ -4,7 +4,7 @@
     position: fixed;
     z-index: 1000;
     border-radius: .5rem;
-    max-height: 350px;
+    /* max-height: 350px; */
     width: 100%;
     box-shadow: 0px 19px 15px 17px rgba(0,0,0,0.1);
     transition: all .3s ease;
