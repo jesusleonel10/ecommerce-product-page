@@ -20,6 +20,7 @@ const IconAmount = styled.button`
     border:none;
     color: #fff;
     font-weight: 700;
+    z-index:2;
 `;
 
 const Svg = styled(SvgLogo)`
@@ -47,6 +48,9 @@ const Header = () => {
 
         const menuMobile = document.querySelector('.menu-mobile')
         menuMobile.classList.toggle('open')
+
+        const backgroundMenu = document.querySelector('.background-menu')
+        backgroundMenu.classList.toggle('open-background')
     }
 
     return (
@@ -98,6 +102,7 @@ const Header = () => {
 
                     </div>
                 </div>
+                <div className='background-menu'></div>
             </header>
             {
                 showCart && <Cart  />

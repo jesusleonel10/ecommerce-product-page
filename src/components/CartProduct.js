@@ -17,10 +17,8 @@ const CartProduct = () => {
                     <img src={thumbnail1} alt="" />
                     <div className='cart__description'>
                         <p className='cart__product'>Fall Limited Edition Sneakers</p>
-                        <span className='cart__price'>{priceFormat(cart.priceFinal)}</span>
-                        <span>x</span>
-                        <span className='cart__amount'>{cart.amounts}</span>
-                        <span className='cart__total'><u><strong>{priceFormat(cart.totalToPay)}</strong></u></span>
+                        <span className='cart__price'>{priceFormat(cart.priceFinal)} x {cart.amounts}</span>
+                        <span className='cart__total'>{priceFormat(cart.totalToPay)}</span>
                     </div>
                     <button onClick={deleteProduct} className='delete' title='Delete Item'>
                         <SvgDelete />

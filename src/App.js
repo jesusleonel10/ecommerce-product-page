@@ -5,8 +5,7 @@ import Header from './components/Header';
 import Gallery from './components/Gallery';
 import TitleDescription from './components/TitleDescription';
 import InfoPrice from './components/InfoPrice';
-import Main from './elements/Main';
-import Row from './elements/Row';
+import styled from 'styled-components';
 
 const App = () => {
   return (
@@ -24,5 +23,23 @@ const App = () => {
     </>
   );
 }
+
+const Main = styled.main`
+    flex-direction: column;
+    margin: 2rem 0;
+
+    @media screen and (min-width: 880px) {
+        flex-direction: row;
+        padding: 0 8rem;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    
+    }
+`;
+
+const Row = styled.div`
+    margin: 0;
+`;
  
 export default App;
